@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1AC03141C6BB38100FD749A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC03131C6BB38100FD749A /* AboutViewController.swift */; };
+		F1AC03171C6BB47A00FD749A /* InfoFile.html in Resources */ = {isa = PBXBuildFile; fileRef = F1AC03161C6BB47A00FD749A /* InfoFile.html */; };
 		F1D63D2A1C654F3E00D4B8EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D63D291C654F3E00D4B8EA /* AppDelegate.swift */; };
 		F1D63D2C1C654F3E00D4B8EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D63D2B1C654F3E00D4B8EA /* ViewController.swift */; };
 		F1D63D2F1C654F3E00D4B8EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D63D2D1C654F3E00D4B8EA /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1AC03131C6BB38100FD749A /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F1AC03161C6BB47A00FD749A /* InfoFile.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = InfoFile.html; sourceTree = "<group>"; };
 		F1D63D261C654F3E00D4B8EA /* BullseyeGame1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullseyeGame1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D63D291C654F3E00D4B8EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D63D2B1C654F3E00D4B8EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1AC030F1C6BB2A000FD749A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1D63D2D1C654F3E00D4B8EA /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F1AC03101C6BB2A700FD749A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1D63D2B1C654F3E00D4B8EA /* ViewController.swift */,
+				F1AC03131C6BB38100FD749A /* AboutViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F1AC03151C6BB45000FD749A /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				F1AC03161C6BB47A00FD749A /* InfoFile.html */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
 		F1D63D1D1C654F3E00D4B8EA = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +126,10 @@
 		F1D63D281C654F3E00D4B8EA /* BullseyeGame1 */ = {
 			isa = PBXGroup;
 			children = (
+				F1AC03151C6BB45000FD749A /* HTML */,
+				F1AC03101C6BB2A700FD749A /* Controller */,
+				F1AC030F1C6BB2A000FD749A /* View */,
 				F1D63D291C654F3E00D4B8EA /* AppDelegate.swift */,
-				F1D63D2B1C654F3E00D4B8EA /* ViewController.swift */,
-				F1D63D2D1C654F3E00D4B8EA /* Main.storyboard */,
 				F1D63D301C654F3E00D4B8EA /* Assets.xcassets */,
 				F1D63D321C654F3E00D4B8EA /* LaunchScreen.storyboard */,
 				F1D63D351C654F3E00D4B8EA /* Info.plist */,
@@ -229,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AC03171C6BB47A00FD749A /* InfoFile.html in Resources */,
 				F1D63D341C654F3E00D4B8EA /* LaunchScreen.storyboard in Resources */,
 				F1D63D311C654F3E00D4B8EA /* Assets.xcassets in Resources */,
 				F1D63D2F1C654F3E00D4B8EA /* Main.storyboard in Resources */,
@@ -256,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AC03141C6BB38100FD749A /* AboutViewController.swift in Sources */,
 				F1D63D2C1C654F3E00D4B8EA /* ViewController.swift in Sources */,
 				F1D63D2A1C654F3E00D4B8EA /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +514,7 @@
 				F1D63D501C654F3E00D4B8EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D63D511C654F3E00D4B8EA /* Build configuration list for PBXNativeTarget "BullseyeGame1Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +523,7 @@
 				F1D63D531C654F3E00D4B8EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D63D541C654F3E00D4B8EA /* Build configuration list for PBXNativeTarget "BullseyeGame1UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +532,7 @@
 				F1D63D561C654F3E00D4B8EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

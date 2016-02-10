@@ -130,6 +130,8 @@ class ViewController: UIViewController {
         view.layer.addAnimation(transition, forKey: nil)
     }
 
+    @IBAction func openModal(sender: UIButton) {
+    }
 
 }
 
